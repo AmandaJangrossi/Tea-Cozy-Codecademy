@@ -3,12 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/index.css">
     <title>Tea Cozy</title>
   </head>
   <body>
     <nav class="header">
       <img
-        src=""
+        src="./img/img-tea-cozy-logo.png"
         alt="Tea Cozy Logo, the word tea cozy wrote in cursive font"
         class="header-logo"
       />
@@ -27,7 +29,6 @@
 
     <main class="main-section">
       <div class="jumbtron">
-        <img src="" alt="" class="jumbtron-wallpaper" />
         <div class="jumbtron-text">
           <h2 class="jumbtron-main-text">Our mission</h2>
           <h4 class="jumbtron-subtitle">
@@ -38,38 +39,74 @@
       </div>
 
       <section class="tea-of-the-month">
-        <h2 class="totm-title">Tea of the Month</h2>
-        <h4 class="totm-subtitle">What's Steeping at The Tea Cozy?</h4>
+        <div class="title-text">
+          <h2 class="totm-title">Tea of the Month</h2>
+          <h4 class="totm-subtitle">What's Steeping at The Tea Cozy?</h4>
+
+        </div>
         <div class="totm-images-container">
-          <img src="" alt="Fall Berry Blitz Tea" class="totm-image" />
-          <img
-            src=""
-            alt="Spiced Run Tea"
-            class="totm-image"
-          />
-          <img src="" alt="Seasonal Donuts" class="totm-image" />
-          <img
-            src=""
-            alt="Myrtle Ave Tea"
-            class="totm-image"
-          />
-          <img src="" alt="Bedford Bizarre Tea" class="totm-image" />
+          <div class="totm-card">
+            <img src="./img/img-berryblitz.jpg" alt="Fall Berry Blitz Tea" class="totm-image" />
+            <p class="totm-card-text">Sample</p>
+          </div>
+          <div class="totm-card">
+            <img
+              src="./img/img-spiced-rum.jpg"
+              alt="Spiced Run Tea"
+              class="totm-image"
+            />
+            <p class="totm-card-text">Sample</p>
+          </div>
+          <div class="totm-card">
+            <img src="./img/img-donut.jpg" alt="Seasonal Donuts" class="totm-image" />
+            <p class="totm-card-text">Sample</p>
+          </div>
+          <div class="totm-card">
+            <img
+              src="./img/img-myrtle-ave.jpg"
+              alt="Myrtle Ave Tea"
+              class="totm-image"
+            />
+            <p class="totm-card-text">Sample</p>
+          </div>
+          <div class="totm-card">
+            <img src="./img/img-bedford-bizarre.jpg" alt="Bedford Bizarre Tea" class="totm-image" />
+            <p class="totm-card-text">Sample</p>
+          </div>
+          
         </div>
       </section>
 
       <section class="locations">
         <h2 class="locations-title">Locations</h2>
-        <div class="location-card">
-            <h3 class="location-name">Downton</h3>
-            <h4 class="location-address">384 West 4th St Suite 108 Portland, Maine</h4>
-        </div>
-        <div class="location-card">
-            <h3 class="location-name">East Bayside</h3>
-            <h4 class="location-address">3433 Phisherman's Avenue (Nothwest Corner) Portland, Maine</h4>
-        </div>
-        <div class="location-card">
-            <h3 class="location-name">Oakdale</h3>
-            <h4 class="location-address">515 Crescent Avenue Second Floor Portland, Maine</h4>
+        <div class="locations-card-container">
+
+          <div class="locations-card">
+              <h3 class="location-name">Downton</h3>
+              <ul class="location-address">
+                <li class="location-address-item">384 West 4th St</li>
+                <li class="location-address-item">Suite 108</li>
+                <li class="location-address-item">Portland, Maine</li>
+              </ul>
+            </div>
+            <div class="locations-card">
+              <h3 class="location-name">East Bayside</h3>
+
+              <ul class="location-address">
+                <li class="location-address-item">3433 Phisherman's Avenue</li>
+                <li class="location-address-item">(Nothwest Corner) </li>
+                <li class="location-address-item">Portland, Maine</li>
+              </ul>
+            </div>
+            <div class="locations-card">
+              <h3 class="location-name">Oakdale</h3>
+              <ul class="location-address">
+                <li class="location-address-item">515 Crescent Avenue</li>
+                <li class="location-address-item">Second Floor</li>
+                <li class="location-address-item">Portland, Maine</li>
+              </ul>
+            </div>
+
         </div>
       </section>
     </main>
@@ -78,7 +115,9 @@
         <h2 class="footer-title">The Tea Cozy</h2>
         <h5 class="footer-contact">contact@theteacozy.com</h5>
         <h5 class="footer-contact">917-555-8904</h5>
-        <h5 class="footer-copyright">copyright The Tea Cozy 2017</h5>
+        <div class="footer-copy">
+          <h5 class="footer-copyright">copyright The Tea Cozy 2017</h5
+        </div>
     </footer>
   </body>
 </html>

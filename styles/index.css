@@ -1,0 +1,167 @@
+
+body {
+    color: white;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    height: 50px;
+
+}
+
+.header-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+.header-items { 
+    padding: 10px;
+    
+}
+
+/*Jumbtron*/
+.jumbtron {
+    height: 700px;
+    background-image: url('../img/img-mission-background.jpg');
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.jumbtron-main-text {
+    font-size: 50px;
+}
+
+.jumbtron-subtitle {
+    font-size: 1.5em;
+}
+.jumbtron-text {
+    background-color: rgb(56, 55, 55);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+
+/*Tea of the month*/
+.title-text {
+    padding: 10px;
+}
+.totm-title{
+    font-size: 2em;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.totm-subtitle {
+    font-size: 1.25em;
+    text-align: center;
+}
+
+.tea-of-the-month {
+    flex-basis: 1000px;
+}
+
+.totm-images-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tea-of-the-month img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid white;
+    box-shadow: 5px 3px #e2ded5;
+
+}
+
+.totm-card {
+    flex-basis: 300px;
+    text-align: center;
+}
+
+.totm-card-text {
+    font-size: 1.3em;
+
+}
+
+/*Location card*/
+
+.locations {
+    display: flex;
+    background-image: url('../img/img-locations-background.jpg');
+    height: 500px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+
+.locations-title{
+    font-size: 4em;
+}
+
+.locations-card-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    flex-basis: 300px;
+}
+
+.locations-card {
+    background-color: black;
+    width: 300px;
+    padding: 16px 0px;
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+
+}
+
+
+.location-address li{
+    margin: 35px auto;
+    
+}
+
+.location-name {
+    font-weight: bold;
+}
+
+.location-name, .location-address {
+    font-size: 1.25em;
+}
+
+
+/*Footer*/
+
+footer {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h2, h5 {
+    font-size: 1.25em;
+}
+
+footer h2{
+    font-weight: bold;
+    font-size: 2em;
+}
